@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Carpetas de compilacion
+x64/
+x86/
+Debug/
+Release/
+build/
+
+# Archivos generados por la compilacion
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.log
+*.lastbuildstate
+*.idb
+*.exp
+
+# Archivos generados por Qt
+ui_*.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.pro.user
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+desktop.ini
