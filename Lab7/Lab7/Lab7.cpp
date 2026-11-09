@@ -245,6 +245,9 @@ void Lab7::eliminarContacto()
     }
 
     refrescarTabla();
+    ui.txtEditNombre->clear();
+    ui.txtEditTelefono->clear();
+    ui.txtEditCorreo->clear();
     QMessageBox::information(this, "Contacto eliminado",
         "El contacto se elimino correctamente.");
 }
